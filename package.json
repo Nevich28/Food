@@ -9,8 +9,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
     "autoprefixer": "^10.4.13",
+    "babel-loader": "^9.1.2",
     "browser-sync": "^2.27.11",
+    "core-js": "^3.28.0",
     "eslint": "^8.34.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
@@ -29,5 +34,8 @@
     "last 1 version",
     "> 1%",
     "not dead"
-  ]
+  ],
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
 }
